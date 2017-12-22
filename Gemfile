@@ -13,7 +13,9 @@ gem 'activeadmin'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-gem 'sqlite3', :group => [:development, :test]
+
+gem'pg', '~> 0.18'
+
 gem 'pg'
 gem 'rails_12factor',:group => [:production]
 

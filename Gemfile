@@ -13,8 +13,8 @@ gem 'activeadmin'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-gem'pg', '~> 0.18'
 gem 'pg'
+gem 'sqlite3', :group => [:development, :test]
 gem 'rails_12factor', :group => [:production]
 
 # Use Puma as the app server
